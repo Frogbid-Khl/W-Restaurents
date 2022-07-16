@@ -1,0 +1,26 @@
+RewriteEngine on
+
+RewriteRule ^Shop our-shop.php [L]
+
+RewriteRule ^Home index.php [L]
+
+RewriteRule ^About about.php [L]
+
+RewriteRule ^Contact contact.php [L]
+
+RewriteRule ^Newsletter newsletter.php [L]
+
+RewriteRule ^Menu our-menu.php [L]
+
+RewriteRule ^Reservation reservation.php [L]
+
+RewriteRule ^Cart cart.php [L]
+
+RewriteRule ^Checkout checkout.php [L]
+
+RewriteRule ^Payment payment.php [L]
+
+RewriteRule ^Product-Detail shop-details.php [L]
+
+RewriteRule ^Insert insert.php [L]
+
