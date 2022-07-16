@@ -53,11 +53,16 @@ if (isset($_POST["Submit"])) {
                 </html>
                 ";
 
-    if (mail($email_to, $subject, $messege, $headers)) {
+    /*if (mail($email_to, $subject, $messege, $headers)) {
         echo "<script>
                 document.cookie = 'alert = 1;';
                 window.location.href='Contact';
                 </script>";
-    }
+    }*/
+
+    echo "<script>
+                document.cookie = 'alert = 1;';
+                window.location.href='Contact';
+                </script>";
 }
 ?>
