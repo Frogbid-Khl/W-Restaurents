@@ -53,7 +53,7 @@ if (isset($_SESSION["cart_item"])) {
     }
 }
 
-if ($_SERVER['SERVER_NAME'] == "skhalalfood.com" || $_SERVER['SERVER_NAME'] == "www.skhalalfood.com") {
+if($_SERVER['SERVER_NAME']=="restaurents.dotest.live"||$_SERVER['SERVER_NAME']=="www.restaurents.dotest.live"){
     $domain_name = '';
 } else {
     $domain_name = "/W-SK-Halal-Food";

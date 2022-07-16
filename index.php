@@ -7,7 +7,7 @@ $db_handle = new DBController();
 <head>
     <?php require_once 'includes/css.php'; ?>
 
-    <title>Home - SK Halal Food</title>
+    <title>Home - Food Island</title>
 </head>
 <body class="counter-scroll header-fixed">
 

@@ -7,7 +7,7 @@ $db_handle = new DBController();
 <head>
     <?php require_once 'includes/css.php'; ?>
 
-    <title>Checkout - SK Halal Food</title>
+    <title>Checkout - Food Island</title>
 
     <style>
         input{
@@ -24,7 +24,7 @@ $db_handle = new DBController();
     <div id="page" class="clearfix">
         <div id="top-bar" class="top-bar-inner-page">
             <div class="top-bar-content">
-                <p>Welcome to SK Halal Food a Best Quality Restaurant</p>
+                <p>Welcome to Food Island a Best Quality Restaurant</p>
             </div>
         </div>
         <?php require_once 'includes/header.php'; ?>

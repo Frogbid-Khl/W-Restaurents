@@ -7,7 +7,7 @@ $db_handle = new DBController();
 <head>
     <?php require_once 'includes/css.php'; ?>
 
-    <title>Shop - SK Halal Food</title>
+    <title>Shop - Food Island</title>
     <link rel='stylesheet' href='//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
     <style>
 
@@ -30,7 +30,7 @@ $db_handle = new DBController();
     <div id="page" class="clearfix">
         <div id="top-bar" class="top-bar-inner-page">
             <div class="top-bar-content">
-                <p>Welcome to SK Halal Food a Best Quality Restaurant</p>
+                <p>Welcome to Food Island a Best Quality Restaurant</p>
             </div>
         </div>
         <?php require_once 'includes/header.php'; ?>

@@ -9,11 +9,11 @@ class DBController {
     private $conn;
 
     function __construct() {
-        if($_SERVER['SERVER_NAME']=="skhalalfood.com"||$_SERVER['SERVER_NAME']=="www.skhalalfood.com"){
-            $this->host = "localhost";
-            $this->user = "u6ra3y9oynskd";
-            $this->password = "3u`^l4%271:2";
-            $this->database = "dbotzhbmslqoiv";
+        if($_SERVER['SERVER_NAME']=="restaurents.dotest.live"||$_SERVER['SERVER_NAME']=="www.restaurents.dotest.live"){
+            $this->host = "premium11";
+            $this->user = "biplgmwr_restaurents";
+            $this->password = "@5cT0oZ5pnD1";
+            $this->database = "biplgmwr_restaurents";
         }
 
         $this->conn = $this->connectDB();

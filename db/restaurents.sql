@@ -55,7 +55,7 @@ CREATE TABLE `admin_login` (
 --
 
 INSERT INTO `admin_login` (`id`, `name`, `ip`, `image`, `email`, `password`, `role`, `updated_at`) VALUES
-                                                                                                       (1, 'Monoget Saha', '27.147.190.199', 'public/images/profile/monoget.png', 'monoget1@gmail.com', '@BCD1234', 'admin', '2022-02-06 17:16:17'),
+                                                                                                       (1, 'Food Island', '27.147.190.199', 'public/images/profile/monoget.png', 'admin@test.com', '@BCD1234', 'admin', '2022-02-06 17:16:17'),
                                                                                                        (2, 'Munna Khan', '103.107.160.134', 'public/images/avatar-01.jpg', 'munna@gmail.com', '@BCD1234', 'admin', '2022-02-10 17:09:43'),
                                                                                                        (3, 'Syed Shifat', '103.107.161.88', 'public/images/avatar-01.jpg', 'shifat@gmail.com', '@BCD1234', 'seo', '2022-02-10 17:09:54');
 

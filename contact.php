@@ -7,7 +7,7 @@ $db_handle = new DBController();
 <head>
     <?php require_once 'includes/css.php'; ?>
 
-    <title>Contact - SK Halal Food</title>
+    <title>Contact - Food Island</title>
 </head>
 <body class="header-fixed2">
 
@@ -18,7 +18,7 @@ $db_handle = new DBController();
     <div id="page" class="clearfix">
         <div id="top-bar" class="top-bar-inner-page">
             <div class="top-bar-content">
-                <p>Welcome to SK Halal Food a Best Quality Restaurant</p>
+                <p>Welcome to Food Island a Best Quality Restaurant</p>
             </div>
         </div>
         <?php require_once 'includes/header.php'; ?>
@@ -51,7 +51,7 @@ $db_handle = new DBController();
                             </div>
                             <div class="widget widget-info flex">
                                 <div class="icon icon-afress">
-                                    <i class="icon-SK Halal Foodmap"></i>
+                                    <i class="icon-Food Islandmap"></i>
                                 </div>
                                 <div class="infor-text">
                                     <h6 class="title">Location</h6>
@@ -61,7 +61,7 @@ $db_handle = new DBController();
                             </div>
                             <div class="widget widget-info flex">
                                 <div class="icon icon-mail">
-                                    <i class="icon-SK Halal Foodemail"></i>
+                                    <i class="icon-Food Islandemail"></i>
                                 </div>
                                 <div class="infor-text">
                                     <h6 class="title">Email Address</h6>
@@ -71,7 +71,7 @@ $db_handle = new DBController();
                             </div>
                             <div class="widget widget-info style2 flex">
                                 <div class="icon icon-call">
-                                    <i class="icon-SK Halal Foodcall"></i>
+                                    <i class="icon-Food Islandcall"></i>
                                 </div>
                                 <div class="infor-text">
                                     <h6 class="title">Call Us</h6>

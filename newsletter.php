@@ -11,9 +11,9 @@ if (isset($_POST["Submit"])) {
 
 
     $email_to = $email;
-    $subject = 'Email From SK Halal Food';
+    $subject = 'Email From Food Island';
 
-    $headers = "From: SK Halal Food <" . $db_handle->from_email() . ">\r\n";
+    $headers = "From: Food Island <" . $db_handle->from_email() . ">\r\n";
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
     $messege = "<html>
@@ -31,7 +31,7 @@ if (isset($_POST["Submit"])) {
                             </p>
                             
                             <p style='color:black;font-weight:bold'>We look forward to speaking with you!<br>
-                                SK Halal Food Team
+                                Food Island Team
                             </p> 
                              <img src='" . $_SERVER['SERVER_NAME'] . "/images/email/contact.png' width='100%' height='auto' alt=''>
                              <h3 style='color:black;text-align: center;'>Please follow us on</h3>
